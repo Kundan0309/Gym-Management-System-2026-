@@ -1,0 +1,4 @@
+This is a web application application software. Developed With the help of my guide.
+This Project can easily run by clicking on "index.html" path is view/index.html.
+This project mainly involves the backend apps like nodejs and exprress,whic can ber run through nodejs terminal by starting the server.
+You are free to use this project code and modify accordingly with certain credits.
