@@ -13,8 +13,8 @@ app.use(express.static(path.join(__dirname, "public")));
 
 //to render main page//
 app.get("/", (req, res) => {
-    res.sendFile(__dirname + "/views/index.html");
-  });
+  res.sendFile(path.join(__dirname, "views", "index.html"));
+});
 
 
 
@@ -22,4 +22,5 @@ app.get("/", (req, res) => {
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
+
 
